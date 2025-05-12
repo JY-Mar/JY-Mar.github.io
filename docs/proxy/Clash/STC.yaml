@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  
+  - {name: "your server name", server: your server url, port: your server port, type: ssr, cipher: aes-256-cfb, password: your password, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: your param, obfs-param: "", udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
